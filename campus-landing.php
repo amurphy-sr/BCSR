@@ -112,7 +112,7 @@
                     <div class="accordion-overlay-container">
                       <img class="accordion-image" src="../_images/pool.jpg" alt="pool">
                       <div class="accordion-overlay">
-                        <p class="accordion-text">First frame caption Copy unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                        <div class="accordion-text">First frame caption Copy unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, <a href="">totam rem</a> aperiam.</div>
                       </div>
                     </div>
                   </div>

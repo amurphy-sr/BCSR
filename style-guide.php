@@ -71,12 +71,21 @@
 					<ul>
 						<li><a href="mixed-media.php">Mixed Media</a>
 							<ul>
-								<li><a href="content-senior-thesis.php">Senior Thesis</a></li>
-								<li><a href="content-early-college.php">Early College</a></li>
 								<li><a href="search.php">Search</a></li>
 								<li><a href="news-listings.php">News Listings</a></li>
-								<li><a href="/contact-form-3options.php">Contact Form</a></li>
 								<li><a href="404.php">404</a></li>
+							</ul>
+						</li>
+						<li>Forms
+							<ul>
+								<li><a href="contact-form-address-follow-no.php">RFI - Address Follow Up No</a></li>
+								<li><a href="contact-form-rfi.php">RFI - Address Follow Up Yes</a></li>
+								<li><a href="contact-form-thanks-address.php">Address Only Follow Up</a></li>
+								<li><a href="contact-form-alumni-referral.php">Referral - Alumni</a></li>
+								<li><a href="contact-form-counselor-referral.php">Referral - Counselor</a></li>
+								<li><a href="contact-form-discovery.php">Discovery Day</a></li>
+
+
 							</ul>
 						</li>
 						
@@ -223,7 +232,9 @@
 	<h1 class="text-center">Heading 1</h1>
 	<h2 class="text-center">Heading 2</h2>
 	<h3>Heading 3</h3>
+	<h3><strong>Heading 3</strong></h3>
 	<h4>Heading 4</h4>
+
 	<h5>Heading 5</h5>
 	<h6>Heading 6</h6>
 
@@ -299,71 +310,90 @@
 	-->
 	<a name="lists"></a>
 	<div class="col-md-12">
-	<h2 id="list_types" class="text-center">List Types</h2>
+		<h2 id="list_types" class="text-center">List Types</h2>
 
-	<h3>Custom Unordered (bullet) List</h3>
+		<h3>Custom Unordered (bullet) List</h3>
 
-	<ul class="arrow-list">
-	  <li><a href="#">Business Farm Supplement oncustodial Parent’s Statement Statement Quis autem vel eum iure reprehenderit qui in ea voluptate</a>
-		<ul class="arrow-list"> 
-		  <li><a href="#">Financial Aid Handbook (2013/14) Business Farm Supplement oncustodial Parent’s Statement Statement Quis</a></li>
+		<ul class="arrow-list">
+		  <li><a href="#">Business Farm Supplement oncustodial Parent’s Statement Statement Quis autem vel eum iure reprehenderit qui in ea voluptate</a>
+			<ul class="arrow-list"> 
+			  <li><a href="#">Financial Aid Handbook (2013/14) Business Farm Supplement oncustodial Parent’s Statement Statement Quis</a></li>
+			  <li><a href="#">Financial Aid Handbook (2013/14)</a></li>
+			</ul>
+		  </li>
 		  <li><a href="#">Financial Aid Handbook (2013/14)</a></li>
 		</ul>
-	  </li>
-	  <li><a href="#">Financial Aid Handbook (2013/14)</a></li>
-	</ul>
 
-	<h3>Custom Ordered List</h3>
+		<h3>Custom Ordered List</h3>
 
-	<ol class="circle-list">
-	  <li><a href="#">Use custom ordered list only one level deep.<span class="dl-svg"><?php include("_inc/svg.php"); ?></span></a></li>
-	  <li><a href="#">International Student Financial Aid Application<span class="dl-svg"><?php include("_inc/svg.php"); ?></span></a></li>
-	  <li><a href="#">International Student Certification of Finances<span class="dl-svg"><?php include("_inc/svg.php"); ?></span></a></li>
-	</ol>
+		<ol class="circle-list">
+		  <li><a href="#">Use custom ordered list only one level deep.<span class="dl-svg"><?php include("_inc/svg.php"); ?></span></a></li>
+		  <li><a href="#">International Student Financial Aid Application<span class="dl-svg"><?php include("_inc/svg.php"); ?></span></a></li>
+		  <li><a href="#">International Student Certification of Finances<span class="dl-svg"><?php include("_inc/svg.php"); ?></span></a></li>
+		</ol>
 
-	<h3>Ordered List</h3>
-	<ol>
-	  <li>List Item 1</li>
-	  <li>List Item 2
-	  <ol>
-		  <li>List Item 1</li>
+		<h3>Ordered List</h3>
+		<ol>
+
+		  <li>List Item 1
+		  	<ol>
+		  		<li>Sub list item 1</li>
+		  		<li>Sub list item 2</li></li>
+		  	</ol>
 		  <li>List Item 2</li>
 		  <li>List Item 3</li>
 		</ol>
-	</li>
-	  <li>List Item 3</li>
-	</ol>
-	<p>Followed by a paragraph</p>
+		<p>Followed by a paragraph</p>
 
-	<h3>Unordered List</h3>
-	<ul>
-	  <li>List Item 1
-	  	<ul>
-	  		<li>Sub list item 1</li>
-	  		<li>Sub list item 2</li></li>
-	  	</ul>
-	  <li>List Item 2</li>
-	  <li>List Item 3</li>
-	</ul>
+		<h3>Unordered List</h3>
+		<ul>
+		  <li>List Item 1
+		  	<ul>
+		  		<li>Sub list item 1</li>
+		  		<li>Sub list item 2</li></li>
+		  	</ul>
+		  <li>List Item 2</li>
+		  <li>List Item 3</li>
+		</ul>
 
-	<h3>Definition List</h3>
-	<dl>
-	  <dt>Definition List Term 1</dt>
-	  <dd>This is a definition list description.</dd>
-	  <dt>Definition List Term 2</dt>
-	  <dd>This is a definition list description.</dd>
-	  <dt>Definition List Term 3</dt>
-	  <dd>This is a definition list description.</dd>
-	</dl>
-	<h3>Custom Department list</h3>
-	<h4 class="spotlight">Information Technology Services</h4>
-                        <ul class="arrow-list-tight"><li><a href="tel:4136444285">413-644-4285 or 413-528-7391</a></li><li><a href="/why-simons-rock/contact-us/offices-and-departments/business-office.php">Department Page</a></li></ul>
-	<h3>Custom Bio List</h3>
-	<h4 class="spotlight">Ben Krupka</h4>
-                           <p class="no-margin-bottom">Ceramics</p>
-                           <ul class="arrow-list-tight-small"><li><a href="mailto:jpitt@simons-rock.edu">jpitt@simons-rock.edu</a></li>
-                           <li><a href="mailto:jpitt@simons-rock.edu">Faculty Bio</a></li></ul>
+		<h3>Definition List</h3>
+		<dl>
+		  <dt>Definition List Term 1</dt>
+		  <dd>This is a definition list description.</dd>
+		  <dt>Definition List Term 2</dt>
+		  <dd>This is a definition list description.</dd>
+		  <dt>Definition List Term 3</dt>
+		  <dd>This is a definition list description.</dd>
+		</dl>
+		<h3>Custom Department list</h3>
+			<div class="arrow-list-tight-small-wrapper">
+				<h4>Information Technology Services</h4>
+	               <ul>
+	                	<li><a href="tel:4136444285">413-644-4285 or 413-528-7391</a></li>
+	                	<li><a href="/why-simons-rock/contact-us/offices-and-departments/business-office.php">Department Page</a></li>
+	               </ul>
+	  			<h4>Department Alternate</h4>
+	             <ul>
+	                <li><a href="tel:4136444285">413-644-4285 or 413-528-7391</a></li>
+	                <li><a href="/why-simons-rock/contact-us/offices-and-departments/business-office.php">Department Page</a></li>
+	             </ul>
+	        </div>
+		<h3>Custom Bio List</h3>
+			<div class="arrow-list-tight-small-wrapper">
+				<h4>Ben Krupka</h4>
+	             <p>Ceramics</p>
+	             <ul>
+		            <li><a href="mailto:jpitt@simons-rock.edu">jpitt@simons-rock.edu</a></li>
+		            <li><a href="mailto:jpitt@simons-rock.edu">Faculty Bio</a></li>
+		         </ul>
 
+	  			<h4>Person Alternate</h4>
+	             <p>French</p>
+	             <ul>
+		            <li><a href="mailto:jpitt@simons-rock.edu">jpitt@simons-rock.edu</a></li>
+		            <li><a href="mailto:jpitt@simons-rock.edu">Faculty Bio</a></li>
+		          </ul>
+	        </div>
 	</div>
 
 	<a name="tables"></a>
@@ -382,7 +412,7 @@
 			<tr>
 			  <th scope="row">Tuition/Fees</th>
 			  <td>$XX,XXX</td>
-			  <td>$XX,XXX</td>
+			  <td><a href="">$XX,XXX</a></td>
 			</tr>
 			<tr>
 			  <th scope="row">Books/Supplies</th>
@@ -803,7 +833,7 @@
 		    </div>
 		    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
 		      <div class="panel-body">
-		        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+		        Anim pariatur cliche reprehenderit, <a href="">enim eiusmod</a> high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
 		      </div>
 		    </div>
 		  </div>
@@ -958,9 +988,23 @@
                         on a test, but actually being able to use one's brain in any situation, academic or
   otherwise. This skill is indispensable in any time or place. It is not just about knowledge and learning to absorb information and then regurgitate on a test, but actually being able to use one's brain in any situation, academic or
   otherwise. This skill is indispensable in any time or place.</p><cite>&mdash;Sarah&nbsp;'08&nbsp;</cite></blockquote>
-  <p> Consider applying .blobkquote-long to the blockquote if the quote extends beyond a couple of lines.
+  <p> Consider applying .blockquote-long class to the blockquote element if the quote extends beyond a couple of lines.
+
 
 		<p>Callouts are the boxes at the side on the Mixed Media and Profile pages. These are ephemeral content similar to a pull quote where information in the document is pulled out and displayed in a way that is easy-to-scan</p>
+	</div>
+	
+	<h3>Pullquote with an image</h3>
+	<div class="row">
+		<div class="col-md-4">
+			<img src="../_images/teacher-1.jpg" alt="teacher 1">
+		</div>
+		<div class="col-md-8">
+			<blockquote class="no-margin">
+        <p>Pair an image with a blockquote by setting them inside two columns. Add class 'no-margin' to the blockquote.<span class="blockquote-mark">&rdquo;</span></p>
+        <cite>-Style Guide</cite>
+      </blockquote>
+		</div>
 	</div>
 	<a name="images"></a> 
 	<div class="col-md-12">
@@ -974,6 +1018,9 @@
 			<p><img src="//placehold.it/125/125" class="pull-right">as is <strong>img.pull-right</strong> Cras justo odio, dapibus ac facilisis in, egestas eget quam. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
 		</div>
 	</div>
+<img alt="Placeholder Image and Some Alt Text" src="http://placehold.it/1170x600" title="A title element for this placeholder image.">
+<div class="caption-small">Small Image Caption for photo attribution. Small Image Caption for photo attribution. Small Image Caption for photo attribution. Small Image Caption for photo attribution. Small Image Caption for photo attribution. Small Image Caption for photo attribution. Small Image Caption for photo attribution.</div> 
+
 	<a name="cta"></a>
 	<div class="col-md-12">
 		<h2 class="text-center">CTA</h2>
@@ -1029,8 +1076,60 @@
 			</div>
 		</div>
 	</div>
-	<p>&nbsp;</p>
-		
+	<div>&nbsp;</div>
+
+	<div class="row thumb-set">
+	<h2 class="text-center">Thumbnails and Thumbnail Copy</h2>
+		<div class="col-md-3">
+			<div class="row no-margin">
+				<div class="col-xs-3 col-md-12">
+					<div class="image-thumb"><a href="/academics/faculty-bios/social-studies-faculty/index.php"><img class="fluid-img" src="http://placehold.it/190x190" alt="thumb photo"></a>
+					</div>
+				</div>
+				<div class="col-xs-9 col-md-12">
+					<div class="thumbnail-copy"><a href="/academics/faculty-bios/social-studies-faculty/index.php">Use div.image-thumb for picture</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="row no-margin">
+				<div class="col-xs-3 col-md-12">
+					<div class="image-thumb"><a href="/academics/faculty-bios/languages-and-literature-faculty/index.php"><img class="fluid-img" src="http://placehold.it/190x190" alt="thumb photo"></a>
+					</div>
+				</div>
+				<div class="col-xs-9 col-md-12">
+					<div class="thumbnail-copy"><a href="/academics/faculty-bios/languages-and-literature-faculty/index.php">Use div.thumbnail-copy for caption</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="row no-margin">
+				<div class="col-xs-3 col-md-12">
+					<div class="image-thumb"><a href="/academics/faculty-bios/arts-faculty/index.php"><img class="fluid-img" src="http://placehold.it/190x190" alt="thumb photo"></a>
+					</div>
+				</div>
+				<div class="col-xs-9 col-md-12">
+					<div class="thumbnail-copy"><a href="/academics/faculty-bios/arts-faculty/index.php">Link Underlined on hover</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="row no-margin">
+				<div class="col-xs-3 col-md-12">
+					<div class="image-thumb"><a href="/academics/faculty-bios/science-mathematics-and-computing-faculty/index.php"><img class="fluid-img" src="http://placehold.it/190x190" alt="thumb photo"></a>
+					</div>
+				</div>
+				<div class="col-xs-9 col-md-12">
+					<div class="thumbnail-copy"><a href="/academics/faculty-bios/science-mathematics-and-computing-faculty/index.php">Use with multiple thumbs</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div>&nbsp;</div>	
 	</section>
 
 
