@@ -604,6 +604,11 @@ body#home {
 
 /* These styles need to be globally available, so: */
 
+.playbutton, //used with videos (rocker profiles and homepage slats)
+.linkbutton { //used with non videos (rocker profiles)
+	@extend .rocker-link;
+}
+
 #rockers {
 	background-color:$dark-gray;
 	h2 {
@@ -639,10 +644,6 @@ body#home {
 		bottom:0;
 		left:0;
 		right:0;
-	}
-	.playbutton, //used with videos 
-	.linkbutton { //used with non videos 
-		@extend .rocker-link;
 	}
 	.rocker-row {
 		position:relative;
@@ -915,6 +916,12 @@ a.rocker-link /*make icon white even if link*/ {
 		left:4px;
 		line-height:1.5em;
 	}
+	&:hover {
+		color:$white;
+		background-color:$red;
+		transition-property:background-color;
+		transition-duration:0.25s;
+	}
 	@media (min-width: $screen-md-min) {
 		font-size:5rem;
 		line-height:1;
@@ -925,12 +932,6 @@ a.rocker-link /*make icon white even if link*/ {
 		opacity:0.8;
 		&:before {
 			line-height:1.7em;
-		}
-		&:hover {
-			color:$white;
-			background-color:$red;
-			transition-property:background-color;
-			transition-duration:0.25s;
 		}
 	}
 }

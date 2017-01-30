@@ -2,7 +2,6 @@ User-agent: *
 Disallow: /*.inc$
 Disallow: /*.html$
 Disallow: /*.xsl$
-Disallow: /*.xml$
 Disallow: /*.scss$
 Disallow: /*.pcf$
 Disallow: /_test/
